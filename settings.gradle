@@ -1,0 +1,4 @@
+rootProject.name = 'spring-grpc-example-server'
+
+include ':spring-grpc-example-interface'
+project(':spring-grpc-example-interface').projectDir = new File('../spring-grpc-example-interface')
